@@ -16,7 +16,7 @@ Read about it more from **[here](https://code.google.com/archive/p/word2vec/)** 
 			|----train_log.out
 			|----test_log.out
 		|----Log                                      #For Logging Tensorboard Output
-		|----Model			                          #For saving model  
+		|----Model				      #For saving model  
 		|----Predictions                              #For Saving Predictions
 		|----Sample_Data                              #Sample Data used for Modeling 
 ```
@@ -24,9 +24,9 @@ Read about it more from **[here](https://code.google.com/archive/p/word2vec/)** 
 
 I have tried to predict the probability of a review getting a rating of more than 7. The complete dataset
 has been downloaded from `Kaggle` and the inspiration is drawn from a competition which can be viewed **[here](https://www.kaggle.com/c/word2vec-nlp-tutorial)**. The
-code currently generates submission file which can submitted to the competition to benchmark its accuracy. The current accuracy is slightly over .8 (scope of improvement)
+code currently generates submission file which can submitted to the competition to benchmark its accuracy. The current accuracy is slightly over .8 (not bad but scope of improvement)
 
-<img src="https://raw.githubusercontent.com/ahujaavi13/kaggle-movie-reviews-with-lstm/master/Predictions/kaggle_accuracy.png" width=800 height = 400>
+<img src="https://raw.githubusercontent.com/ahujaavi13/kaggle-movie-reviews-with-lstm/master/Predictions/kaggle_accuracy.png" width=1000 height = 450>
 
 Once the algorithm is ready and tuned properly it will do sentiment classification as it has been illustrated below from a dummy review data that has been created and kept in
 `Sample_Data`. Input the reviews of your own. The predictions on my reviews are coming as follows  
