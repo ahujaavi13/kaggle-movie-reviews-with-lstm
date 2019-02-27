@@ -49,7 +49,7 @@
 
   To do this you need to put the following code by suitably modifying `<your-user-name>`
   ```
-  (tensorflow_p36) ubuntu@ip-XX-XX-XX-XX:~/users/<your-user-name>/kaggle-movie-reviews-with-lstm/Code$ tensorboard --logdir /home/ubuntu/users/<your-user-name>/kaggle-movie-reviews-with-lstm/Log/with_helmet-vs-without_helmet-convnet
+  (tensorflow_p36) ubuntu@ip-XX-XX-XX-XX:~/users/<your-user-name>/kaggle-movie-reviews-with-lstm/Code$ tensorboard --logdir /home/ubuntu/users/<your-user-name>/kaggle-movie-reviews-with-lstm/Log/kaggle-movie-reviews-with-lstm
    ```  
 
    This will launch tensorboard on port `6006` (__May not be this port if multiple users are there using the server simultaneously__). Once tensorboard is launched it will be acessible from __your browser__ via the following link  
