@@ -1,0 +1,6 @@
+nohup: ignoring input
+Using TensorFlow backend.
+Found 25000 texts in Test Data
+Shape of data tensor: (25000, 30)
+Found 4 texts in Test Data
+Shape of data tensor: (4, 30)
