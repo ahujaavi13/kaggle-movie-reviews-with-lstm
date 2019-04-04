@@ -17,6 +17,9 @@ Read about it more from **[here](https://code.google.com/archive/p/word2vec/)** 
 			|----test_log.out
 		|----Log                                      #For Logging Tensorboard Output
 		|----Model				      #For saving model  
+			|----tensorflowjs		      #Tensorflow.js model and weight files archive
+			|----movie-review-sentiment-prediction.h5
+			|----tokenizer.pickle
 		|----Predictions                              #For Saving Predictions
 		|----Sample_Data                              #Sample Data used for Modeling 
 ```
